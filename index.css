@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background-image: url(/photo/man-surfing-net-laptop-during-coffee-break-generated-by-ai.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.navbar ul{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    list-style:none;
+    font-size: 17px;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.navleft{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.navleft a{
+    text-decoration: none;
+    color:rgb(215, 138, 16);
+    font-weight: 600;
+
+
+}
+.navright{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.searchbox{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox li{
+    margin: 0px 10px;
+}
+.search{
+    border:none;
+    background-color:rgba(0, 0, 0, 0);
+    color:rgba(226, 152, 15, 0.725);
+    
+}
+.searchbox input{
+    border:none;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    padding: 0px 10px;
+    font-family:sans-serif;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.169) 0px 4px 12px;
+}
+.login{
+    border:none;
+    background-color: rgba(228, 137, 11, 0.902);
+    padding: 10px 50px;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 30px 90px;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(/photo/man-surfing-net-laptop-during-coffee-break-generated-by-ai.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.767);
+    
+}
+.navleft a:hover,.search:hover{
+    background-color: rgba(19, 18, 18, 0);
+    color:rgb(206, 105, 17);
+}
+.login:hover{
+    background-color: rgb(28, 26, 26);
+    color:orange;
+}
+.searchbox input:hover{
+    background-color: rgba(0, 0, 0, 0.322);
+}
